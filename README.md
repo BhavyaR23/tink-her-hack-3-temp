@@ -42,7 +42,7 @@ To run the app locally, you can use the **Live Server** extension in Visual Stud
 ![](./1.png)
 *This screenshot shows the user input screen where ingredients can be entered.*
 
-![Screenshot2]   https://drive.google.com/drive/folders/1VHbTV0HlJ0PNSW95SFQD1dGH9NbznQ39
+![Screenshot2](https://drive.google.com/drive/folders/1VHbTV0HlJ0PNSW95SFQD1dGH9NbznQ39)
 *This screenshot shows the recipe suggestions generated based on entered ingredients.*
 
 ![Screenshot3](Add screenshot 3 here with proper name)  
