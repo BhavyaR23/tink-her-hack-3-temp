@@ -4,7 +4,7 @@
 ### Team Name: Spark Ignitors
 
 ### Team Members
-- Bhavya Raj K - [College]
+- Bhavya Raj K - [College of engineering Adoor]
 
 ### Hosted Project Link
 [InstaDish Web App](https://insta-dish.vercel.app/)
@@ -39,10 +39,10 @@ To run the app locally, you can use the **Live Server** extension in Visual Stud
 ### Project Documentation
 
 #### Screenshots
-![Screenshot1](Add screenshot 1 here with proper name)  
+![Screenshot1]  https://drive.google.com/drive/folders/15X99JU-P-Duruv7giGhHcctkZF_x-MWD
 *This screenshot shows the user input screen where ingredients can be entered.*
 
-![Screenshot2](Add screenshot 2 here with proper name)  
+![Screenshot2]   https://drive.google.com/drive/folders/1VHbTV0HlJ0PNSW95SFQD1dGH9NbznQ39
 *This screenshot shows the recipe suggestions generated based on entered ingredients.*
 
 ![Screenshot3](Add screenshot 3 here with proper name)  
