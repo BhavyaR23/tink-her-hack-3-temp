@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        /* Global reset */
+        * {  
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #c46e6e;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .recipe-details {
+            background-color: #c6a8a8;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #c02b2b;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #db6262;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #666;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            padding: 8px;
+            border-bottom: 1px solid #eaeaea;
+            transition: background-color 0.3s ease;
+        }
+
+        li:hover {
+            background-color: #e9f7f3;
+        }
+
+        /* Styling the message when recipe is not found */
+        .error-message {
+            color: #d10b0b;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .recipe-details {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            li {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="recipe-details">
+        <h1 id="recipe-name"></h1>
+        <h3>Ingredients:</h3>
+        <ul id="recipe-ingredients"></ul>
+        
+        <!-- New preparation details section -->
+        <h3>Preparation:</h3>
+        <p id="recipe-preparation"></p>
+
+        <p id="error-message" class="error-message"></p>
+    </div>
+
+    <script>
+        // Function to get query parameters from the URL
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Get the recipe name from the URL
+        const recipeName = getQueryParam("recipe");
+
+        // Check if a recipe name is found
+        if (recipeName) {
+            const recipe = getRecipeDetails(recipeName);
+            if (recipe) {
+                // Display the recipe details
+                document.getElementById("recipe-name").textContent = recipe.name;
+                const ingredientsList = document.getElementById("recipe-ingredients");
+                recipe.ingredients.forEach(ingredient => {
+                    const li = document.createElement("li");
+                    li.textContent = ingredient;
+                    ingredientsList.appendChild(li);
+                });
+
+                // Display preparation details
+                document.getElementById("recipe-preparation").textContent = recipe.preparation;
+            } else {
+                document.getElementById("recipe-name").textContent = "Recipe not found!";
+                document.getElementById("error-message").textContent = "Sorry, we couldn't find that recipe.";
+            }
+        } else {
+            document.getElementById("recipe-name").textContent = "No recipe selected!";
+            document.getElementById("error-message").textContent = "Please select a recipe to view its details.";
+        }
+
+        // Function to get the recipe details from the recipes array
+        function getRecipeDetails(name) {
+            const recipes = [
+                {
+                    name: "Pasta Carbonara", 
+                    ingredients: ["pasta", "egg", "cheese", "bacon", "garlic"],
+                    preparation: "1. Cook the pasta according to package instructions. 2. In a pan, cook the bacon until crispy. 3. Mix the egg with cheese and garlic. 4. Toss the pasta with the egg mixture and bacon. Serve hot."
+                },
+                {
+                    name: "Veggie Stir Fry", 
+                    ingredients: ["broccoli", "carrot", "tofu", "soySauce", "garlic"],
+                    preparation: "1. Heat oil in a pan and sauté the garlic. 2. Add the broccoli and carrots, stir-fry until tender. 3. Add tofu and soy sauce. Stir and cook for 5 more minutes. Serve with rice."
+                },
+                {
+                    name: "Chicken Soup", 
+                    ingredients: ["chicken", "carrot", "onion", "garlic", "chickenBroth"],
+                    preparation: "1. Boil the chicken in the chicken broth. 2. Add the chopped carrots, onions, and garlic. 3. Simmer until the chicken is cooked. Season to taste."
+                },
+                {
+                    name: "Tomato Salad", 
+                    ingredients: ["tomato", "onion", "basil", "oliveOil", "garlic"],
+                    preparation: "1. Slice the tomatoes and onions. 2. Mix with basil and crushed garlic. 3. Drizzle with olive oil and toss. Serve fresh."
+                }
+            ];
+
+            return recipes.find(recipe => recipe.name === name);
+        }
+    </script>
+
+</body>
+</html>

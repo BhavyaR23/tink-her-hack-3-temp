@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#cooking-women {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(239, 243, 247);
+    font-style:italic;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    
+}
+
+.right-sec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 55px;
+}
+
+.content  {
+    height: 580px;
+    font-size: x-large;
+    text-align: center; 
+    background-image: url("https://img.freepik.com/premium-photo/border-spices-spices-with-white-background_655090-56810.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.para{
+    padding-top: 130px;
+    padding-bottom:10px ;
+}
+footer{
+    background-color: rgb(199, 45, 45);
+    
+    color: white;
+}
+.input-box input{
+    width: 50%;
+    padding:10px
+
+}
+.input-box button{
+
+    padding:10px
+
+
+}
+
+
