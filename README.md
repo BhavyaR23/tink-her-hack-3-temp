@@ -1,98 +1,92 @@
 # InstaDish 🎯
 
-
 ## Basic Details
 ### Team Name: Spark Ignitors
 
-
 ### Team Members
-- Member 1: Bhavya raj k - [College]
-  
+- Bhavya Raj K - [College]
 
 ### Hosted Project Link
-https://insta-dish.vercel.app/
+[InstaDish Web App](https://insta-dish.vercel.app/)
 
 ### Project Description
-The InstaDish web app allows users to input the ingredients they have at home,and it will suggest recipies that can be made with those ingredients.This app will also help the users to find creative meal ideas,reduce food waste and save time in kitchen
+InstaDish is a web app that allows users to input the ingredients they have at home, and it will suggest recipes that can be made using those ingredients. This app helps users find creative meal ideas, reduce food waste, and save time in the kitchen by making the most of what they already have.
 
-### The Problem statement
-Many people often find themselves with a fridge full of ingredients but no idea what to cook.This lead to wastage of food and the tendency to order or buy premade meals,which can be costly and unhealthy.There is a need for a solution that helps users make the most of what they already have in their kitchens by suggesting suitable recipes
+### The Problem Statement
+Many people often find themselves with a fridge full of ingredients but no idea what to cook. This leads to food wastage, and a tendency to order or buy pre-made meals, which can be costly and unhealthy. There is a need for a solution that helps users make the most of the ingredients they already have in their kitchens by suggesting suitable recipes.
 
 ### The Solution
-This web app provides a simple and effective solution to the problem of meal planning with limited ingredients.By allowing users to input the ingredients they have at home,the app generate personalized recipe suggestions based on the ingredients.By providing a convinient,user-friendly platform that help users to cook with what they already have.
+InstaDish provides a simple and effective solution to the problem of meal planning with limited ingredients. By allowing users to input the ingredients they have at home, the app generates personalized recipe suggestions. The app offers a convenient, user-friendly platform that helps users create meals with what they already have on hand.
 
 ## Technical Details
 
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+### For Software:
+- HTML, JavaScript, CSS
+- VS Code, Git
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+### For Hardware:
+- None
 
-### Implementation
-For Software:
-# Installation
-[commands]
+## Implementation
 
-# Run
-[commands]
+### For Software:
+#### # Installation
+There is no installation required for InstaDish, as it is a web-based application.
+
+#### # Run
+To run the app locally, you can use the **Live Server** extension in Visual Studio Code to view the project.
 
 ### Project Documentation
-For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+#### Screenshots
+![Screenshot1](Add screenshot 1 here with proper name)  
+*This screenshot shows the user input screen where ingredients can be entered.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](Add screenshot 2 here with proper name)  
+*This screenshot shows the recipe suggestions generated based on entered ingredients.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](Add screenshot 3 here with proper name)  
+*This screenshot shows a detailed recipe view with instructions and ingredients.*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+#### Diagrams
+![Workflow](Add your workflow/architecture diagram here)  
+*This diagram illustrates the workflow of the InstaDish app.*
 
-For Hardware:
+### For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
+#### Schematic & Circuit
+![Circuit](Add your circuit diagram here)  
 *Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
+![Schematic](Add your schematic diagram here)  
 *Add caption explaining the schematic*
 
-# Build Photos
-![Team](Add photo of your team here)
+#### Build Photos
+![Team](Add photo of your team here)  
+*Team photo*
 
-
-![Components](Add photo of your components here)
+![Components](Add photo of your components here)  
 *List out all components shown*
 
-![Build](Add photos of build process here)
+![Build](Add photos of build process here)  
 *Explain the build steps*
 
-![Final](Add photo of final product here)
+![Final](Add photo of final product here)  
 *Explain the final build*
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+#### Video
+[Add your demo video link here]  
+*This video demonstrates how users can input ingredients into InstaDish and receive personalized recipe suggestions.*
 
-# Additional Demos
+#### Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Bhavya Raj K: Designed the app interface, developed the recipe suggestion algorithm, and integrated the frontend.
+- Worked on project documentation and user experience design.
 
 ---
 Made with ❤️ at TinkerHub
+
+---
