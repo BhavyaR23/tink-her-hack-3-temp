@@ -39,7 +39,7 @@ To run the app locally, you can use the **Live Server** extension in Visual Stud
 ### Project Documentation
 
 #### Screenshots
-![Screenshot1]  https://drive.google.com/drive/folders/15X99JU-P-Duruv7giGhHcctkZF_x-MWD
+![](./1.png)
 *This screenshot shows the user input screen where ingredients can be entered.*
 
 ![Screenshot2]   https://drive.google.com/drive/folders/1VHbTV0HlJ0PNSW95SFQD1dGH9NbznQ39
