@@ -2,28 +2,27 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Spark Ignitors
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Bhavya raj k - [College]
+  
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://insta-dish.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+The InstaDish web app allows users to input the ingredients they have at home,and it will suggest recipies that can be made with those ingredients.This app will also help the users to find creative meal ideas,reduce food waste and save time in kitchen
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Many people often find themselves with a fridge full of ingredients but no idea what to cook.This lead to wastage of food and the tendency to order or buy premade meals,which can be costly and unhealthy.There is a need for a solution that helps users make the most of what they already have in their kitchens by suggesting suitable recipes
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+This web app provides a simple and effective solution to the problem of meal planning with limited ingredients.By allowing users to input the ingredients they have at home,the app generate personalized recipe suggestions based on the ingredients.By providing a convinient,user-friendly platform that help users to cook with what they already have.
 
 ## Technical Details
-### Technologies/Components Used
+
 For Software:
 - [Languages used]
 - [Frameworks used]
